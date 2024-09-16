@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+h1{
+   background-color: rgb(170, 104, 115);
+   height :50px;
+   color: aliceblue;
+}
+
+.bar1{
+   background-color: rgb(215, 97, 117);
+   height: 80px;
+   
+}
+a{
+   padding: 20px;
+   margin-right: 350px;
+}
+
+#img
+{
+height: 70px;
+   
+}
+
+.about{
+  
+   background-color: rgb(255, 226, 231);
+   height: 900px;
+   text-align:left;
+   font-size: larger;
+   
+}
+.move{
+  width: 300px;
+  height: 100px;
+  background-color: rgb(116, 11, 29); 
+  transition-duration: 3s;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+div:hover{
+   transition-timing-function:(ease-in-out) ;
+   background-color: rgb(184, 131, 233);
+}
